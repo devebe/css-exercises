@@ -3,15 +3,16 @@ p.pink {
     background-color: #ffb6c0;
 }
 
-.bold {
+.extra {
     font-weight: bold;
+    font-size: 24px;
 }
 
-.div#foo {
+div#foo {
     color: #2175d9;
     font-size: 32px;
 }
 
-.div#bar {
+div#bar {
     background-color: #95fb95;
 }
