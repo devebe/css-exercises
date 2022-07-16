@@ -1,0 +1,17 @@
+p.pink {
+    font-family: "Verdana","DejaVu Sans", sans-serif;
+    background-color: #ffb6c0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.div#foo {
+    color: #2175d9;
+    font-size: 32px;
+}
+
+.div#bar {
+    background-color: #95fb95;
+}
