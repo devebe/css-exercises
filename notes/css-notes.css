@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+}
+/* This selector declares that the class flex container should behave
+accoding to logic from flexbox */
+
+.flex-container div {
+    background-color: #dcdcdc;
+    border: 4px solid #505050;
+    height: 20rem;
+    flex: 1;
+}
+
