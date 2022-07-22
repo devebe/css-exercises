@@ -43,7 +43,7 @@ S.  flex-shrink:
 B.  flex-basis: 
     sets the initial size of a flex item, so that any sort of flex-growing or 
     flex-shrinking starts from that  baseline size. If set to 0, it will ignore a
-    baseline size
+    baseline size. If set to auto, it will respect that baseline size.
 
 
 By default, these values are  0(G) 1(S) 0%(B) respectively.
