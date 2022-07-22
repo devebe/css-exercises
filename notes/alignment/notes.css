@@ -1,14 +1,126 @@
 .container {
-    height: 140px;
+    height: 600px;
+    width: 600px;
     padding: 16px;
     background-color: plum;
     border: 4px solid indigo;
     display: flex;
+    margin: auto;
+ 
+    /* FLEX-DIRECTION */
+    /* flex-direction defines your main and cross axis direction */
+
+    /* flex-direction: row; */
+
+    /* flex-direction: row-reverse; */
+
+    /* flex-direction: column; */
+
+    /* flex-direction: column-reverse; */
+
+    /* --------------------------------------------------------- */
+    
+    /* FLEX WRAP */
+    /* flex-wrap defines if the items will wrap at a certain screen size */
+
+    /* flex-wrap: wrap; */
+
+    /* --------------------------------------------------------- */
+
+    /* FLEX-FLOW */
+    /* flex-flow is the shorthand for flex-direction (1) and flex-wrap (2) */
+
+    /* flex-flow: row wrap; */
+
+    /* --------------------------------------------------------- */
+
+    /* JUSTIFY-CONTENT */
+    /* justify-content aligns items along the main axis */
+    
+    /* justify-content: flex-start; */
+    /* aligns items to the end of the main axis */
+
+    /* justify-content: center; */
+    /* aligns items to the center of the main axis */
+
+    /* justify-content: flex-end; */
+    /* aligns items to the end of the main axis */
+
+    /* justify-content: space-around; */
+    /* aligns items with equal space on both sides of item along main axis */
+    /* eg. 5 - item - 10 - item - 10 - item - 5 */
+
+    /* justify-content: space-between; */
+    /* aligns items with equal space between them along main axis */
+    /* eg. item - 10 - item - 10- item */
+
+    justify-content: space-evenly;
+    /* aligns items with equal space on all gaps between items */
+    /* eg. 10 - item - 10 - item - 10- item - 10/
+
+    /* --------------------------------------------------------- */
+ 
+    /* ALIGN-ITEMS */
+    /* align-items aligns items along the cross-axis*/
+
+    /* align-items: stretch; */
+    /* allows items to stretch along the cross-axis */
+
+    /* align-items: flex-start; */
+    /* aligns items to the start of the cross-axis */
+
+    /* align-items: center; */
+    /* aligns items to the center of the cross-axis */
+
+    /* align-items: flex-end; */
+    /* aligns items to the end of the cross-axis */
+
+    /* --------------------------------------------------------- */
+
+    /* ALIGN-SELF */
+    /* align-self allows for one or multiple flex items in the
+    flex-container to behave differently in alignment */
+
+    /* align-self: flex-start; */
+    /* align-self: center; */
+    /* align-self: flex-end; */
+    /* align-self: stretch; */ 
+
+    /* --------------------------------------------------------- */
+
+    /* ALIGN-CONTENT */
+    /* align-content helps when you have multiple rows or columns
+    that are in need of spacing between them */
+
+    /* align-content: flex-start; */
+    /* align-content: center; */
+    /* align-content: flex-end; */
+    /* align-content: space-around; */ 
+    /* align-content: space-between; */ 
+    /* align-content: stretch; */ 
+    /* align-content: space-evenly; */ 
+
+
+    /* --------------------------------------------------------- */
+
+    /* FLEX-GAP */
+    /* gap defines a distance between items inside the flex-container */
+    
+    /* gap: 8px; */
+
+    /* --------------------------------------------------------- */
+
+    
 }
 
 .item {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     border: 4px solid darkslateblue;
     background-color: skyblue;
+    /* flex: 1; */
+}
+
+.unique {
+    align-self: flex-end;
 }
