@@ -6,6 +6,11 @@
 
     column: main axis top-bottom secondary axis L - R
     row: main axix L - R secondary axis top-bottom
+
+    in the flex-items below, the declaration of flex needs to be 1 1 auto
+    to assure that the div does not collapse. flex-basis refers to the
+    HEIGHT of the element now, instead of the WIDTH it refers to in flex-
+    direction: row
     */
 }
 
