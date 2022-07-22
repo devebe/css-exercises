@@ -1,0 +1,17 @@
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    /* flex-direction will align the main axis with the choice
+    you make:
+
+    column: main axis top-bottom secondary axis L - R
+    row: main axix L - R secondary axis top-bottom
+    */
+}
+
+.flex-container div {
+    background-color: #fbcaeb;
+    border: 4px solid #f850c0;
+    height: 80px;
+    flex: 1 1 auto;
+}
